@@ -2,7 +2,7 @@
 unity ugui 图文混排 支持超链接 自定义点击事件  下划线 删除线  
 目前就遇到这些功能，后续可能会补充  
 
-参考：
+参考：https://github.com/HedgehogSir/EmojiText
 
 如果需要图文混排，先生成图片数据，具体步骤工程里面有  
 
