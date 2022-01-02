@@ -353,7 +353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd30cede4160140518037170e4ecd695, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: ede86e9e46cdf48dfb63043f2154c0d6, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -374,8 +374,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '[E81][u%#FF0000#we][Link_1#FF0000#we][E1'
-  IsRefreshData: 1
+  m_Text: '[E81][u%#FF0000#we][Link_1#FF0000#we][E1]'
+  IsRefreshData: 0
   texData: {fileID: 4900000, guid: 994ec847ba30e413f996d9996ef49734, type: 3}
   lineWidth: 1
 --- !u!222 &1832264414
