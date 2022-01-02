@@ -1,0 +1,197 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/zrg1511/Documents/work/Personal/LeranProject/XText
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56625
+Successfully changed project path to: /Users/zrg1511/Documents/work/Personal/LeranProject/XText
+/Users/zrg1511/Documents/work/Personal/LeranProject/XText
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 20.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.3f1c1 (a34b99c2c582)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/zrg1511/Documents/work/Personal/LeranProject/XText/Assets
+GfxDevice: creating device client; threaded=0
+2022-01-02 15:28:48.889 Unity[69598:8251048] (null) preferred device: Apple M1 (high power)
+2022-01-02 15:28:48.889 Unity[69598:8251048] Metal devices available: 1
+2022-01-02 15:28:48.889 Unity[69598:8251048] 0: Apple M1 (high power)
+2022-01-02 15:28:48.889 Unity[69598:8251048] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56598
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002068 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 21.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.951 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001712 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.769 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.5 MB.
+System memory in use after: 107.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1557.
+Total: 1.318208 ms (FindLiveObjects: 0.102791 ms CreateObjectMapping: 0.025042 ms MarkObjects: 1.094417 ms  DeleteObjects: 0.095208 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89109700be8172bd51b8ef5796d635aa') in 0.006595 seconds
+  Import took 0.008486 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000268 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.587 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.9 MB.
+System memory in use after: 107.9 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1564.
+Total: 1.198291 ms (FindLiveObjects: 0.093875 ms CreateObjectMapping: 0.024708 ms MarkObjects: 1.025083 ms  DeleteObjects: 0.053792 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.159503 seconds.
+  path: Assets/XText/Simple/Simple.unity
+  artifactKey: Guid(cd35f500a532847aaae782eb5fa55c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XText/Simple/Simple.unity using Guid(cd35f500a532847aaae782eb5fa55c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e5efa836e06143937baac1f1a2c67f') in 0.019242 seconds
+  Import took 0.020873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.548379 seconds.
+  path: Assets/XText
+  artifactKey: Guid(c3f90fecd49f949378d5297ad68d1ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XText using Guid(c3f90fecd49f949378d5297ad68d1ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9c9123542b2250acde9313b3f92dcb') in 0.001133 seconds
+  Import took 0.003560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 146.049903 seconds.
+  path: Assets/XText/Editor/XTextEditor.cs
+  artifactKey: Guid(a483d689903104bca8c0da11bdcc6bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XText/Editor/XTextEditor.cs using Guid(a483d689903104bca8c0da11bdcc6bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b097602f4bc2e090b37d2a76cacb721') in 0.253234 seconds
+  Import took 0.254804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.418998 seconds.
+  path: Assets/XText/Editor/XTextBuildEditor.cs
+  artifactKey: Guid(094be9b6cc43f4334b34e0ef090a6452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XText/Editor/XTextBuildEditor.cs using Guid(094be9b6cc43f4334b34e0ef090a6452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae6a526075f95207d6d4f69c9b6f03b') in 0.002978 seconds
+  Import took 0.004797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019088 seconds.
+  path: Assets/XText/Editor/XTextBuildEditor.cs
+  artifactKey: Guid(094be9b6cc43f4334b34e0ef090a6452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XText/Editor/XTextBuildEditor.cs using Guid(094be9b6cc43f4334b34e0ef090a6452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae6a526075f95207d6d4f69c9b6f03b') in 0.001943 seconds
+  Import took 0.003545 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000361 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.045 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.4 MB.
+System memory in use after: 112.5 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1567.
+Total: 1.346000 ms (FindLiveObjects: 0.155541 ms CreateObjectMapping: 0.024125 ms MarkObjects: 1.096208 ms  DeleteObjects: 0.068250 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.964751 seconds.
+  path: Assets/XText/Editor/XTextBuildEditor.cs
+  artifactKey: Guid(094be9b6cc43f4334b34e0ef090a6452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XText/Editor/XTextBuildEditor.cs using Guid(094be9b6cc43f4334b34e0ef090a6452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f41be35907ab758b435b8f241859510') in 0.007650 seconds
+  Import took 0.009253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026590 seconds.
+  path: Assets/XText/Editor/XTextBuildEditor.cs
+  artifactKey: Guid(094be9b6cc43f4334b34e0ef090a6452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XText/Editor/XTextBuildEditor.cs using Guid(094be9b6cc43f4334b34e0ef090a6452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f41be35907ab758b435b8f241859510') in 0.002050 seconds
+  Import took 0.003587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 133.182372 seconds.
+  path: Assets/XText/Icon
+  artifactKey: Guid(48cd14eddfb494d79a02c68c882d4f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XText/Icon using Guid(48cd14eddfb494d79a02c68c882d4f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa8a5e242e1343a3525f2292efcc491') in 0.000860 seconds
+  Import took 0.002489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000717 seconds.
+  path: Assets/XText/Icon
+  artifactKey: Guid(48cd14eddfb494d79a02c68c882d4f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XText/Icon using Guid(48cd14eddfb494d79a02c68c882d4f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa8a5e242e1343a3525f2292efcc491') in 0.000774 seconds
+  Import took 0.002903 seconds .
+
