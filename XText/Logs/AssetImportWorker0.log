@@ -93,3 +93,73 @@ Received Import Request.
 Start importing Assets/XText/Simple/Simple.unity using Guid(cd35f500a532847aaae782eb5fa55c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa05a1a6a29cf5e37e420fe57729ad21') in 0.002451 seconds
   Import took 0.005320 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 879.631563 seconds.
+  path: Assets/XText/Editor/XTextBuildEditor.cs
+  artifactKey: Guid(094be9b6cc43f4334b34e0ef090a6452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XText/Editor/XTextBuildEditor.cs using Guid(094be9b6cc43f4334b34e0ef090a6452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f41be35907ab758b435b8f241859510') in 0.343907 seconds
+  Import took 0.369167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 268.782007 seconds.
+  path: Assets/XText/Editor/XTextBuildEditor.cs
+  artifactKey: Guid(094be9b6cc43f4334b34e0ef090a6452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XText/Editor/XTextBuildEditor.cs using Guid(094be9b6cc43f4334b34e0ef090a6452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348911658e6fb4efb3d98e77df8d8b32') in 0.029383 seconds
+  Import took 0.031724 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000671 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.900 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.2 MB.
+System memory in use after: 112.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1565.
+Total: 1.674375 ms (FindLiveObjects: 0.322750 ms CreateObjectMapping: 0.037000 ms MarkObjects: 1.167542 ms  DeleteObjects: 0.145291 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.053186 seconds.
+  path: Assets/XText/Editor/XTextBuildEditor.cs
+  artifactKey: Guid(094be9b6cc43f4334b34e0ef090a6452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XText/Editor/XTextBuildEditor.cs using Guid(094be9b6cc43f4334b34e0ef090a6452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f39133616325b7cfab2d7a711dcd12e2') in 0.007803 seconds
+  Import took 0.010144 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000489 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.773 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.4 MB.
+System memory in use after: 112.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1568.
+Total: 1.115500 ms (FindLiveObjects: 0.093167 ms CreateObjectMapping: 0.023834 ms MarkObjects: 0.954083 ms  DeleteObjects: 0.043708 ms)
+
