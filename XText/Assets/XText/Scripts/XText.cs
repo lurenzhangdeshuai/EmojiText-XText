@@ -48,6 +48,7 @@ namespace XT
             "\\[(u%|d%)?(E[0-9]+|Link)?(#[a-fA-F0-9]{6}#)?([\u4e00-\u9fa5_a-zA-Z0-9]+)?\\]";
 
 
+        private  Regex _regex = new Regex(regexPatten);
         StringBuilder sBuilder = new StringBuilder();
         UIVertex[] m_TempVerts = new UIVertex[4];
 
@@ -249,8 +250,9 @@ namespace XT
             m_DisableFontTextureRebuiltCallback = false;
         }
 
-
-        protected void ParseText(string inputText)
+      
+        
+        protected   void  ParseText(string inputText)
         {
             m_outText = inputText;
 
@@ -263,7 +265,7 @@ namespace XT
             tempMatchValueLength = 0;
 
 
-            MatchCollection matches = Regex.Matches(m_outText, regexPatten);
+            MatchCollection matches = _regex.Matches(m_outText);
 
             for (int i = 0; i < matches.Count; i++)
             {
@@ -568,7 +570,7 @@ namespace XT
                 prefix = match.Groups[2].Value;
                 if (!string.IsNullOrEmpty(prefix))
                 {
-                    if (prefix == "Link")
+                    if (prefix.Equals("Link",StringComparison.Ordinal))
                     {
                         if (!string.IsNullOrEmpty(match.Groups[3].Value))
                         {
