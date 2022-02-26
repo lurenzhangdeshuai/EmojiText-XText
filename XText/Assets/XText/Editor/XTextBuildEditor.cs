@@ -118,6 +118,7 @@ namespace UI.XT
             EditorGUILayout.BeginVertical();
 
 
+            EditorGUILayout.HelpBox("表情命名必须以E加数字命名,比如:E1;动态表情后面加下划线，比如：E2_1,E2_2,E2_3,或者自己修改代码中的正则表达式",MessageType.Info);
             EditorGUILayout.BeginHorizontal();
             EditorGUILayout.TextField("表情所在文件夹：", EmojiPath);
             if (GUILayout.Button("选择路径", GUILayout.Width(0)))

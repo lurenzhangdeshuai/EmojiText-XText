@@ -10,8 +10,9 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+
 namespace XT
- {
+{
     public class XText : Text, IPointerClickHandler
     {
         public bool IsRefreshData;
@@ -45,10 +46,10 @@ namespace XT
         MatchResultData matchResult = new MatchResultData();
 
         const string regexPatten =
-            "\\[(u%|d%)?(E[0-9]+|Link)?(#[a-fA-F0-9]{6}#)?([\u4e00-\u9fa5_a-zA-Z0-9]+)?\\]";
+            "\\[(u%|d%)?(E[0-9]+|Link)?(#[a-fA-F0-9]{6}#)?([\u4e00-\u9fa5_a-zA-Z0-9\\s\\p{P}\n\r=+$￥<>^`~|]+)?\\]";
 
 
-        private  Regex _regex = new Regex(regexPatten);
+        private Regex _regex = new Regex(regexPatten);
         StringBuilder sBuilder = new StringBuilder();
         UIVertex[] m_TempVerts = new UIVertex[4];
 
@@ -250,9 +251,8 @@ namespace XT
             m_DisableFontTextureRebuiltCallback = false;
         }
 
-      
-        
-        protected   void  ParseText(string inputText)
+
+        protected void ParseText(string inputText)
         {
             m_outText = inputText;
 
@@ -469,17 +469,29 @@ namespace XT
 
         /*---------可点击区域----------*/
 
+        /// <summary>
+        /// 设置点击事件
+        /// </summary>
+        /// <param name="id">第几个Link</param>
+        /// <param name="func"></param>
+        /// <param name="customInfo">默认为下划线的Word</param>
+        /// <param name="lineType">LineType删除线还是下滑线</param>
+        /// <param name="hyperColor">#FFFFFF</param>
         public void SetHyperData(int id, Action<string> func,
-            string customInfo,
-            string lineType = "0", string hyperColor = "#FFFFFF")
+            string customInfo = null,
+            string lineType = "0", string hyperColor = null)
         {
             HyperLinkInfo hyperLinkInfo = GetLinkInfoByIdx(id);
             if (hyperLinkInfo != null)
             {
                 hyperLinkInfo.ClickFunc = func;
-                hyperLinkInfo.customInfo = customInfo;
+                if (!string.IsNullOrEmpty(hyperLinkInfo.customInfo))
+                    hyperLinkInfo.customInfo = customInfo;
                 hyperLinkInfo.lineType = (LineType) Enum.Parse(typeof(LineType), lineType);
-                ColorUtility.TryParseHtmlString(hyperColor, out hyperLinkInfo.color);
+                if (!string.IsNullOrEmpty(hyperColor))
+                    ColorUtility.TryParseHtmlString(hyperColor, out hyperLinkInfo.color);
+                else
+                    hyperLinkInfo.color = color;
 
                 m_tempHyperLinksDataDic[HyperIdxs[id]] = hyperLinkInfo;
 
@@ -570,9 +582,9 @@ namespace XT
                 prefix = match.Groups[2].Value;
                 if (!string.IsNullOrEmpty(prefix))
                 {
-                    if (prefix.Equals("Link",StringComparison.Ordinal))
+                    if (prefix.Equals("Link", StringComparison.Ordinal))
                     {
-                        if (!string.IsNullOrEmpty(match.Groups[3].Value))
+                        //if (!string.IsNullOrEmpty(match.Groups[3].Value))
                         {
                             matchType = MatchType.Link;
                         }
@@ -610,5 +622,5 @@ namespace XT
         None,
         Delete,
         Underline
-    } 
- }
+    }
+}
